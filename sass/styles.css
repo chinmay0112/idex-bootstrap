@@ -625,6 +625,14 @@ select {
   color: #000;
 }
 
+.overall-container p {
+  color: #000;
+}
+
+.add-sec p {
+  color: #fff;
+}
+
 .latest-card span {
   color: #DA0000;
 }
