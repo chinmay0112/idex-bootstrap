@@ -689,7 +689,9 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.overall-container p{
+    color:#000;
+}
 
 .routing p{
     transition: color 0.3s, border-color 0.3s;
