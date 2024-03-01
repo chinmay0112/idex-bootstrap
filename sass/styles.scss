@@ -19,6 +19,16 @@ body{
     transition: background-color 0.5s ease; 
 }
 
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Styles for dark mode */
+body.dark-mode {
+    background-color: #222F80;
+    color: #ffffff;
+}
 
 
 
@@ -250,7 +260,6 @@ left: -10px;
     background: #EED5FF 0% 0% no-repeat padding-box;
     position: absolute;
     top: 250px;
-   
 }
 
 .n-card3{
@@ -267,7 +276,6 @@ left: -10px;
     position: absolute;
     top: 220px;
     left: 298px;
-  
 }
 // numbers that matter ends
 
@@ -894,6 +902,7 @@ footer h5, li,a{
     align-items: center;
     background-color: #031B4E;
     flex-wrap: wrap;
+
 }
 footer .row{
     display: flex;
@@ -922,19 +931,24 @@ footer .row{
 
 .foot-icons{
     color: #fff;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foot-icons i{
-    background: #00A9E7 0% 0% no-repeat padding-box;
+    background-color: #00A9E7;
     opacity: 1;
     color: #fff;
     border-radius: 50%;
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.foot-content{}
+
 // footer
 
 // big screen pc
