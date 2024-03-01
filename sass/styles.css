@@ -34,6 +34,7 @@ body.dark-mode {
 
 .lastupdated, .skip-main-content p {
   margin-bottom: 0;
+  color: #000;
 }
 
 .skip-main-content {
@@ -621,6 +622,7 @@ select {
 
 .latest-card h2 {
   font-weight: 700;
+  color: #000;
 }
 
 .latest-card span {

@@ -93,3 +93,6 @@ function applyStoredDarkMode() {
 
 // Call applyStoredDarkMode when the page loads
 document.addEventListener('DOMContentLoaded', applyStoredDarkMode);
+
+
+
